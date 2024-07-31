@@ -14,14 +14,14 @@ variable "instance_type" {
 }
 
 variable "key_name" {
-  default = "devtf-key"
+  default = "terraform-key"
   type    = string
 }
 
-variable "bucket" {
-  default = "jenkins-s3-bucket-etechapp"
-  type    = string
-}
+#variable "bucket" {
+#  default = "jenkins-s3-bucket-etechapp"
+#  type    = string
+#}
 
 variable "acl" {
   default = "private"
